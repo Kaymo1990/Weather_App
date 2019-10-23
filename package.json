@@ -1,0 +1,22 @@
+{
+  "name": "weathernode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaymo1990/Weather_App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaymo1990/Weather_App/issues"
+  },
+  "homepage": "https://github.com/Kaymo1990/Weather_App#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
