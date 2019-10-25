@@ -5,4 +5,5 @@ request({url: url, json: true }, (error, response) => {
     const longitude = response.body.features[0].center[0]
     console.log(latitutde);
     console.log(longitude);
+    console.log(`The latitude is ${latitutde} and the longitude is ${longitude}`)
 })
