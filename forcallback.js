@@ -11,6 +11,16 @@
 //     console.log(sum) // Should print: 5
 // })
 
-setTimeout(() => {console.log("2 seconda are up")}, 500)
+// setTimeout(() => {console.log("2 seconda are up")}, 500)
 
-const add = (a, b) => {};
+const add = (a, b, callback) => {
+    setTimeout(() => {
+        callback(a, b)
+    }, 1000)
+};
+
+const sum = (a, b) => {
+    console.log(a + b);
+};
+
+add(1,2,sum);
